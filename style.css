@@ -49,3 +49,26 @@ img {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+@keyframes color-change {
+    0% {
+      color: #2c5282;
+    }
+    
+
+    50% {
+      color: #4a5568;
+    }
+
+
+  
+    100% {
+      color: #2c5282;
+    }
+
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
